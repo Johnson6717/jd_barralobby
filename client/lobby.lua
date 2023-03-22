@@ -1,4 +1,5 @@
---- /lobby
+-- Created by eleseta#3053 and Nico 1997#4637 // https://discord.gg/4ECThkQmaX
+-- /lobby
 RegisterCommand("lobby", function()
 	notify("Te estas ~g~teletransportando~w~ al lobby")
 	Citizen.Wait(5000) -- 5 segundos
@@ -12,3 +13,4 @@ function notify(text)
     AddTextComponentString(text)
     DrawNotification(true, true)
 end
+-- Created by eleseta#3053 and Nico 1997#4637 // https://discord.gg/4ECThkQmaX
